@@ -280,7 +280,7 @@ docker images
 which should return 
 ```
 REPOSITORY                                        TAG           IMAGE ID       CREATED          SIZE
-<none>                                            <none>        ec24f3925a54   10 minutes ago   860MB
+<none>                                            <none>        ec24f3925a54   1 second ago   860MB
 ```
 To run the program in the container:
 ```
