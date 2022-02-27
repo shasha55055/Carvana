@@ -257,7 +257,35 @@ the whale is - 8
 the whale in - 8
 of the same - 8
 ```
+# Docker Container
+This program can be run in a docker container through the docker image created by the docker file.
+Ensure that all relavant .txt files are included in the repository
+To run this program in a docker container, docker must be installed.
+Check docker version using the following.
+```
+docker --version
+```
 
+To build the docker image, locate the repository and run the following.
+```
+docker build .
+```
+
+check the built image using
+
+```
+docker images
+```
+
+which should return 
+```
+REPOSITORY                                        TAG           IMAGE ID       CREATED          SIZE
+<none>                                            <none>        ec24f3925a54   10 minutes ago   860MB
+```
+To run the program in the container:
+```
+docker run -it <image ID> 
+```
 
 # Problems To Fix If Given More Time
 * Unicode - Program is capable of interpreting unicode characters such as ü and ß. However, the program heavily relies on the use of spaces in a written language. As a result, languages, such as chinese and japanese, that do not use spaces are incompatible with this program. Furthermore, this program does not remove punctuations not used in standard english such as ¿ and 。
