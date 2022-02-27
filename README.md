@@ -24,13 +24,30 @@ git clone https://github.com/shasha55055/Carvana.git
 
 ```
 # to enter multiple files enter a space fallowed by the file path of the next file
-./main.py show_most_three <filepath>
+./Main.py show_most_three <filepath>
 ```
 
 Example input
 
 ```
-./main.py show_most_three sample1.txt sample2.txt
+./Main.py show_most_three sample1.txt sample2.txt
+```
+
+## Run with stdin 
+
+```
+#run program
+./Main.py
+
+# to enter multiple files enter a comma and space fallowed by the file path of the next file
+Enter Selected files: <filepath>
+```
+
+Example input
+
+```
+./Main.py
+Enter Selected files: sample1.txt, sample2.txt
 ```
 
 Example output
@@ -242,20 +259,6 @@ of the same - 8
 ```
 
 
-## Run with stdin 
 
-```
-#run program
 
-./main.py
-# to enter multiple files enter a comma and space fallowed by the file path of the next file
-./main.py show_most_three <filepath>
-```
 
-Example input
-
-```
-./main.py show_most_three sample1.txt sample2.txt
-```
-
-Example output
