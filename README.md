@@ -50,7 +50,7 @@ Example input
 Enter Selected files: sample1.txt, sample2.txt
 ```
 
-Example output
+## Example output
 ```
 List of most common 3 word sequences in sample.txt
 oh captain deal - 9
@@ -259,6 +259,9 @@ of the same - 8
 ```
 
 
+# Problems To Fix If Given More Time
+* Unicode - Program is capable of interpreting unicode characters such as ü and ß. However, the program heavily relies on the use of spaces in a written language. As a result, languages, such as chinese and japanese, that do not use spaces are incompatible with this program. Furthermore, this program does not remove punctuations not used in standard english such as ¿ and 。
 
+* Effeciency - This program reads each word in each .txt file one by one twice and processes them through two dictionaries before returning an output. This results in a high runtime for larger files. This can be reduced by processing multiple files at once or formatting the data with a different algorithm.
 
 
