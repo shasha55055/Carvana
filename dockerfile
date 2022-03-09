@@ -1,6 +1,6 @@
 FROM python:3.9.7
 
-ADD test.py .
+ADD Main.py .
 
 COPY sample.txt .
 
