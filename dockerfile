@@ -4,4 +4,4 @@ ADD Main.py .
 
 COPY sample.txt .
 
-CMD ["python", "./test.py"]
+CMD ["python", "./Main.py"]
